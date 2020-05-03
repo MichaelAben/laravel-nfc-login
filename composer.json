@@ -1,0 +1,27 @@
+{
+    "name": "maben-dev/laravel-nfc-login",
+    "description": "Laravel NFC tag login",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Aben",
+            "email": "m.aben@live.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "MabenDev\\NFCLogin\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MabenDev\\NFCLogin\\NFCLoginProvider"
+            ]
+        }
+    }
+}
